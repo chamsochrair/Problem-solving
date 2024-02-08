@@ -1,6 +1,6 @@
 #include<stdio.h>
-int main(){
-
-
-    return 0 ;
-}
+ static int a,b,d ;
+   static int sum () {
+     d=a+b ;
+    return d ;
+   }

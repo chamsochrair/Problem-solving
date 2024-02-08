@@ -1,7 +1,6 @@
 #include<stdio.h>
-   int a,c,s ;
-   int sum(){
-     
+  static int a,c,s ;
+   static int sum(){
       s=a+c ;
        return s ;
    }
